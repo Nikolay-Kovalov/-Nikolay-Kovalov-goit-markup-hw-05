@@ -264,9 +264,7 @@ letter-spacing: 0.06em;
 }
 
 .modal-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  position: relative;
   padding: 0;
   width: 30px;
   height: 30px;
@@ -278,6 +276,17 @@ letter-spacing: 0.06em;
   cursor: pointer;
   background-color: #FFFFFF;
  
+}
+
+.modal-icon-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.is-hidden {
+  display: none;
 }
 
 
